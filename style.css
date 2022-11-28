@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'FonteDoIgor';
+    src: url('Fonts/ShadowsIntoLight-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FonteDoHomer';
+    src: url('Fonts/Homer_Simpson_Revised.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: lightgray;
+    border-radius: 0px 0px 10px 10px;
+    height: auto;
+}
+
+.logo {
+    width: 5%;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.indice {
+    display: inline-block;
+    text-align: right;
+}
+
+.anime {
+    background-color: darkgray;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3px 1px 3px rgba(167, 167, 167, 0.247);
+}
+
+.manga {
+    background-color: darkgray;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3px 1px 3px rgba(167, 167, 167, 0.247);
+}
+
+.novel {
+    background-color: darkgray;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3px 1px 3px rgba(167, 167, 167, 0.247);
+}
+
+nav {
+    font: normal bold 15px "FonteDoIgor", cursive;
+    padding: 6px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+}
+
+nav > a:hover {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    transition-duration: .5s;
+}
+
+main {
+    background-color: rgba(207, 207, 207, 0.514);
+    width: 900px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+article {
+    width: 300px;
+    border: solid;
+    border-radius: 10px;
+}
+
+article > h1 {
+    font: normal bold 3em "FonteDoHomer", cursive;
+    color: rgba(0, 0, 0, 0.801);
+    text-align: center;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgba(26, 26, 26, 0.404));
+    box-shadow: 3px 3px 5px 3px rgba(167, 167, 167, 0.247);
+}
+
+article > h2 {
+    font: normal 1.5em 'FonteDoHomer', cursive;
+    text-align: center;
+    margin: 15px 10px;
+    color: rgba(0, 0, 0, 0.801);
+    width: 150px;
+    border-radius: 15px;
+    background-color: darkgray;
+    box-shadow: 3px 3px 3px 3px rgba(167, 167, 167, 0.247);
+}
+
+article > p {
+    font: normal bold 15px 'FonteDoHomer', cursive;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 10px 15px;
+}
+
+footer {
+    text-align: center;
+    font: normal 0.9em 'FonteDoIgor', cursive;
+    margin-bottom: auto;
+    
+}
